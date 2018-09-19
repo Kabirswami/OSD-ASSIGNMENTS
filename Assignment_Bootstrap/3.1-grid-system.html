@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<title>BOOTSTRAP</title>
+</head>
+<body>
+	<div class="container">
+		<h1 class="display-3 text-center my-4">Grid System</h1>
+		<div class="row">
+				<div class="col-md-3">
+					<div class="dropdown">
+						<button type="button" class="btn btn-primary dropdown-toggle btn-block" data-toggle="dropdown">1: Utilities</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="1.1-Basic-typography.html">1.1 Basic Typography</a>
+								<a class="dropdown-item" href="1.2-text-alignment&display.html">1.2 Text Alignment & Display</a>
+								<a class="dropdown-item" href="1.3-floats&fixed-positions.html">1.3 Floats & Position</a>
+								<a class="dropdown-item" href="1.4-color&background-color.html">1.4 Colors & Backround</a>
+								<a class="dropdown-item" href="1.5-spacing.html">1.5 Spacing</a>
+								<a class="dropdown-item" href="1.6-sizing.html">1.6 Sizing</a>
+								<a class="dropdown-item" href="1.7-breakpoints.html">1.7 Breakpoints</a>			
+							</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+				<div class="dropdown">
+					<button type="button" class="btn btn-success dropdown-toggle btn-block" data-toggle="dropdown">2: CSS Components</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="2.1-buttons.html">2.1 Buttons</a>
+							<a class="dropdown-item" href="2.2-navbar.html">2.2 Navbar</a>
+							<a class="dropdown-item" href="2.3-list-group&badges.html">2.3 Lists Groups & Badges</a>
+							<a class="dropdown-item" href="2.4-forms.html">2.4 Forms</a>
+							<a class="dropdown-item" href="2.5-input-groups&add-ons.html">2.5 Input Groups</a>
+							<a class="dropdown-item" href="2.6-alerts&progress-bars.html">2.6 Alerts & Progress</a>
+							<a class="dropdown-item" href="2.7-tables&pagination.html">2.7 Table & Pagination</a>	
+							<a class="dropdown-item" href="2.8-cards.html">2.8 Cards</a>	
+							<a class="dropdown-item" href="2.9-media-object.html">2.9 Media Objects</a>			
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+				<div class="dropdown">
+					<button type="button" class="btn btn-warning dropdown-toggle btn-block" data-toggle="dropdown">3: Grid & Flexbox</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="3.1-grid-system.html">3.1 Grid System</a>
+							<a class="dropdown-item" href="3.2-grid-alignment.html">3.2 Grid Alignment</a>
+							<a class="dropdown-item" href="3.3-flexbox.html">3.3 Flexbox</a>
+							<a class="dropdown-item" href="3.4-auto-margins&wrapping.html">3.4 Auto Margins & Wrap</a>							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="dropdown">
+						<button type="button" class="btn btn-danger dropdown-toggle btn-block" data-toggle="dropdown">4: JavaScript Widgets</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="4.1-carousel-slider.html">4.1 Carousel</a>
+							<a class="dropdown-item" href="4.2-collapse.html">4.2 Collapse</a>
+							<a class="dropdown-item" href="4.3-tooltips.html">4.3 Tooltip</a>
+							<a class="dropdown-item" href="4.4-popovers.html">4.4 Pullovers</a>
+							<a class="dropdown-item" href="4.5-modals.html">4.5 Modals</a>								
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+
+	</div>
+		<hr>
+	<div class="container">
+		<!--grid system-->
+		<div class="row" style="border:1px solid black;">
+			<div class="col-sm-6 col-md-8 col-lg-9 col-xl-10" style="border:1px solid black;">
+				<ul>
+					<li>6 column on small screens</li>
+					<li>8 column on medium screen</li>
+					<li>9 column on large screen</li>
+					<li>10 column on xlarge screen</li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-md-8 col-lg-3 col-xl-2" style="border:1px solid black;">
+				<ul>
+					<li>6 column on small screens</li>
+					<li>8 column on medium screen</li>
+					<li>3 column on large screen</li>
+					<li>2 column on xlarge screen</li>
+				</ul>
+			</div>
+		</div>
+		<!--equal width-->
+		<div class="row">
+			<div class="col" style="border:1px solid black;">Equal Width</div>
+			<div class="col" style="border:1px solid black;">Equal Width</div>
+			<div class="col" style="border:1px solid black;">Equal Width</div>
+			<div class="col" style="border:1px solid black;">Equal Width</div>
+		</div>
+		<!--multi equal width-->
+		<div class="row">
+			<div class="col" style="border:1px solid black;">Equal Width</div>
+			<div class="col" style="border:1px solid black;">Equal Width</div>
+			<div class="w-100"></div>
+			<div class="col" style="border:1px solid black;">Equal Width</div>
+			<div class="col" style="border:1px solid black;">Equal Width</div>
+		</div>
+		<!--auto layout-->
+		<div class="row" style="border:1px solid black;">
+			<div class="col-2" style="border:1px solid black;">Auto layout</div>
+			<div class="col-6" style="border:1px solid black;">Auto layout</div>
+			<div class="col-4" style="border:1px solid black;">Auto layout</div>	
+		</div>
+
+		<!--equal width stack-->
+		<div class="row">
+			<div class="col-sm" style="border:1px solid black;">Equal width stack</div>
+			<div class="col-sm" style="border:1px solid black;">Equal width stack</div>
+			<div class="col-sm" style="border:1px solid black;">Equal width stack</div>
+		</div>
+
+		<!--ordering-->
+		<div class="row">
+			<div class="col order-3" style="border:1px solid black;">
+				First
+			</div>
+			<div class="col order-2" style="border:1px solid black;">
+				Second
+			</div>
+			<div class="col order-1" style="border:1px solid black;">
+				Third
+			</div>
+		</div>
+		<!--offsetting-->
+		<div class="row">
+			<div class="col-4" style="border:1px solid black;">Col</div>
+			<div class="col-4 offset-md-4" style="border:1px solid black;">4 Col Offset 4</div>
+		</div>
+		<div class="row">
+			<div class="col-3 offset-md-3" style="border:1px solid black;">3 Col Offset 3</div>
+			<div class="col-3 offset-md-3" style="border:1px solid black;">3 Col Offset 3</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 offset-md-3" style="border:1px solid black;">6 Col Offset 3</div>
+		</div>
+
+		<!--nested-->
+		<div class="row">
+			<div class="col-sm-9" style="border:1px solid black;">
+				Level 1: Col-sm-9
+			
+			<div class="row">
+				<div class="col-sm-6" style="border:1px solid red;">
+					Level 2: Col-8 Col-sm-6
+				</div>
+				<div class="col-sm-6" style="border:1px solid red;">
+					Level 2: Col-8 Col-sm-6
+				</div>
+			</div>s
+			</div>
+		</div>
+
+
+
+	</div>
+
+	  <div style="margin-top:500px;"></div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>

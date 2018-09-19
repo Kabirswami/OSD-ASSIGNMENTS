@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<title>BOOTSTRAP</title>
+</head>
+<body>
+	<div class="container">
+		<h1 class="display-3 text-center my-4">Navbar</h1>
+		<div class="row">
+				<div class="col-md-3">
+					<div class="dropdown">
+						<button type="button" class="btn btn-primary dropdown-toggle btn-block" data-toggle="dropdown">1: Utilities</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="1.1-Basic-typography.html">1.1 Basic Typography</a>
+								<a class="dropdown-item" href="1.2-text-alignment&display.html">1.2 Text Alignment & Display</a>
+								<a class="dropdown-item" href="1.3-floats&fixed-positions.html">1.3 Floats & Position</a>
+								<a class="dropdown-item" href="1.4-color&background-color.html">1.4 Colors & Backround</a>
+								<a class="dropdown-item" href="1.5-spacing.html">1.5 Spacing</a>
+								<a class="dropdown-item" href="1.6-sizing.html">1.6 Sizing</a>
+								<a class="dropdown-item" href="1.7-breakpoints.html">1.7 Breakpoints</a>			
+							</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+				<div class="dropdown">
+					<button type="button" class="btn btn-success dropdown-toggle btn-block" data-toggle="dropdown">2: CSS Components</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="2.1-buttons.html">2.1 Buttons</a>
+							<a class="dropdown-item" href="2.2-navbar.html">2.2 Navbar</a>
+							<a class="dropdown-item" href="2.3-list-group&badges.html">2.3 Lists Groups & Badges</a>
+							<a class="dropdown-item" href="2.4-forms.html">2.4 Forms</a>
+							<a class="dropdown-item" href="2.5-input-groups&add-ons.html">2.5 Input Groups</a>
+							<a class="dropdown-item" href="2.6-alerts&progress-bars.html">2.6 Alerts & Progress</a>
+							<a class="dropdown-item" href="2.7-tables&pagination.html">2.7 Table & Pagination</a>	
+							<a class="dropdown-item" href="2.8-cards.html">2.8 Cards</a>	
+							<a class="dropdown-item" href="2.9-media-object.html">2.9 Media Objects</a>			
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+				<div class="dropdown">
+					<button type="button" class="btn btn-warning dropdown-toggle btn-block" data-toggle="dropdown">3: Grid & Flexbox</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="3.1-grid-system.html">3.1 Grid System</a>
+							<a class="dropdown-item" href="3.2-grid-alignment.html">3.2 Grid Alignment</a>
+							<a class="dropdown-item" href="3.3-flexbox.html">3.3 Flexbox</a>
+							<a class="dropdown-item" href="3.4-auto-margins&wrapping.html">3.4 Auto Margins & Wrap</a>							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="dropdown">
+						<button type="button" class="btn btn-danger dropdown-toggle btn-block" data-toggle="dropdown">4: JavaScript Widgets</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="4.1-carousel-slider.html">4.1 Carousel</a>
+							<a class="dropdown-item" href="4.2-collapse.html">4.2 Collapse</a>
+							<a class="dropdown-item" href="4.3-tooltips.html">4.3 Tooltip</a>
+							<a class="dropdown-item" href="4.4-popovers.html">4.4 Pullovers</a>
+							<a class="dropdown-item" href="4.5-modals.html">4.5 Modals</a>								
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+
+	</div>
+		<hr>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			
+			<ul class="navbar-nav">
+				<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+			</ul>
+			</div>
+		</nav>
+			
+			<br><br>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			<div class="navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+			</div>
+		</nav>
+		<br><br>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			<div class="navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+			<form class="form-inline">
+				<input type="search" name="search" placeholder="Search" class="form-control">
+				<button class="btn btn-outline-success ml-3">Search</button>
+			</form>
+			</div>
+		</nav>
+		<br><br>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+				<ul class="navbar-nav">
+					<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">Link 1</a>
+							<a href="#" class="dropdown-item">Link 2</a>
+							<a href="#" class="dropdown-item">Link 3</a>
+						</div>
+					</li>
+					<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<br><br>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			
+			<ul class="navbar-nav">
+				<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+			</ul>
+			</div>
+		</nav>
+		<br><br>
+		<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			
+			<ul class="navbar-nav">
+				<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+			</ul>
+			</div>
+		</nav>
+		<br><br>
+		<nav class="navbar navbar-expand-lg navbar-light bg-success">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			
+			<ul class="navbar-nav">
+				<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+			</ul>
+			</div>
+		</nav>
+		<br><br>
+		<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			
+			<ul class="navbar-nav">
+				<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+			</ul>
+			</div>
+		</nav>
+		<br><br>
+	<div class="container">
+		<ul class="nav nav-pills">
+			<li class="nav-item">
+				<a href="#" class="nav-link active">Link 1</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 2</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 3</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 4</a>
+			</li>
+		</ul>
+		<br><br>
+		<ul class="nav nav-pills justify-content-center">
+			<li class="nav-item">
+				<a href="#" class="nav-link active">Link 1</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 2</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 3</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 4</a>
+			</li>
+		</ul>
+		<br><br>
+		<ul class="nav nav-pills justify-content-end">
+			<li class="nav-item">
+				<a href="#" class="nav-link active">Link 1</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 2</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 3</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 4</a>
+			</li>
+		</ul>
+		<br><br>
+		<ul class="nav nav-pills flex-column">
+			<li class="nav-item">
+				<a href="#" class="nav-link active">Link 1</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 2</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 3</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 4</a>
+			</li>
+		</ul>
+		<br><br>
+		<ul class="nav nav-pills nav-fill">
+			<li class="nav-item">
+				<a href="#" class="nav-link active">Link 1</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 2</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 3</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 4</a>
+			</li>
+		</ul>
+		<br><br>
+		<ul class="nav nav-pills nav-fill">
+			<li class="nav-item">
+				<a href="#" class="nav-link active">Link 1</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 2</a>
+			</li>
+			<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">Link 1</a>
+							<a href="#" class="dropdown-item">Link 2</a>
+							<a href="#" class="dropdown-item">Link 3</a>
+						</div>
+					</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 3</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Link 4</a>
+			</li>
+		</ul>
+
+
+	</div>
